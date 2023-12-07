@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>나만의 중고마켓</title>
+  <link rel="stylesheet"
+    href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/easygpt/default.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <style>
+    body {
+      background-color: #f3f4ef;
+      /* 배경색 */
+      color: #3a444e;
+      /* 글자색 */
+    }
+
+    .hero {
+      background-color: #123557;
+      /* 어두운 배경색 */
+      color: rgb(247, 239, 239);
+      /* 흰색 글자 */
+      padding: 30px 0;
+      /* 상하 패딩 */
+    }
+
+    .card {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      /* 그림자 효과 */
+      transition: box-shadow 0.3s ease-in-out;
+      /* 그림자 전환 효과 */
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      /* 마우스 호버시 그림자 효과 강화 */
+    }
+
+    .card {
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hero text-center py-5">
+    <h1>나만의 르탄마켓</h1>
+    <h2>집에 있는 물건을 팝니다!</h2>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <!-- 냄비 카드 -->
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG90fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+            class="card-img-top" alt="냄비 이미지" />
+          <div class="card-body">
+            <h5 class="card-title">냄비</h5>
+            <h6 class="card-subtitle mb-2 text-muted">5만원</h6>
+            <p class="card-text">
+              한 번 밖에 안 쓴 냄비 팝니다. 부모님이 독립할 때 주신 거에요!
+            </p>
+            <a href="https://spartacodingclub.kr/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+              상세 정보 보기
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- 전자레인지 카드 -->
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://shopping-phinf.pstatic.net/main_2972302/29723021618.20220921085059.jpg?type=f640"
+            class="card-img-top" alt="전자레인지" />
+          <div class="card-body">
+            <h5 class="card-title">전자레인지</h5>
+            <h6 class="card-subtitle mb-2 text-muted">6만원</h6>
+            <p class="card-text">
+              구매해서 한달쓰고 팝니다. 이사하는곳이 풀옵션이라서 팝니다!
+            </p>
+            <a href="https://spartacodingclub.kr/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+              상세 정보 보기
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- 세탁기  카드 -->
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://thumbnail7.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/30b3/755afab91d204ddd24b8192f94f3abd23d248f125571a7847ed81a1b53ee.jpg"
+            class="card-img-top" alt="세탁기 이미지" />
+          <div class="card-body">
+            <h5 class="card-title">세탁기</h5>
+            <h6 class="card-subtitle mb-2 text-muted">8만원</h6>
+            <p class="card-text">
+              3개월 사용한 세탁기 입니다 (이사가는곳이 풀옵션이라서 팝니다!)
+            </p>
+            <a href="https://spartacodingclub.kr/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+              상세 정보 보기
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- 무선청소기  카드 -->
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://thumbnail6.coupangcdn.com/thumbnails/remote/300x300ex/image/vendor_inventory/f8d9/ff3afab5a611760cc6c8f239fa2c3ced00d501c60ceaad42e7562aae3cb8.jpg"
+            class="card-img-top" alt="무선청소기 이미지" />
+          <div class="card-body">
+            <h5 class="card-title">냄비</h5>
+            <h6 class="card-subtitle mb-2 text-muted">5만원</h6>
+            <p class="card-text">
+              3개월 사용한 무선청소기 팝니다! 집으로 들어가서 판매합니다!
+            </p>
+            <a href="https://spartacodingclub.kr/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+              상세 정보 보기
+            </a>
+          </div>
+        </div>
+        <!--안에 메모장으로 활용할때 쓰는 코드?-->
+      </div>
+      
